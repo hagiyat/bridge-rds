@@ -1,0 +1,2 @@
+export JUMP_HOST=your.ec2-host.in.ssh-config.hostname.com
+export FORWARD_HOST=your.target.rds.amazonaws.com

@@ -1,0 +1,9 @@
+rdsbridge:
+  build: .
+  environment:
+    JUMP_HOST: $JUMP_HOST
+    FORWARD_HOST: $FORWARD_HOST
+  volumes:
+    - ~/.ssh:/root/.ssh
+  ports:
+    - "13306:3306"

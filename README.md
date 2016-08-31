@@ -7,6 +7,7 @@
 - (*required*) docker
 - [direnv](https://github.com/direnv/direnv)
 - ssh-config
+
   ```
   # ~/.ssh/config
   Host fumidai.host
